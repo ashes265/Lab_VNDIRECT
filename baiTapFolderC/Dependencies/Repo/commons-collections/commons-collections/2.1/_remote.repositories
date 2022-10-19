@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 04 09:40:18 ICT 2022
+commons-collections-2.1.jar>=
+commons-collections-2.1.jar>central=
+commons-collections-2.1.pom>central=

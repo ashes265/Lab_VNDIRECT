@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>edu.hanoi.spring.jaxws</groupId>
+  <artifactId>spring-jax-ws</artifactId>
+  <versioning>
+    <release>version</release>
+    <versions>
+      <version>version</version>
+    </versions>
+    <lastUpdated>20221013051222</lastUpdated>
+  </versioning>
+</metadata>

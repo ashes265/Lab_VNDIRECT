@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 04 09:40:18 ICT 2022
+tiles-autotag-core-runtime-1.1.0.jar>=
+tiles-autotag-core-runtime-1.1.0.jar>central=
+tiles-autotag-core-runtime-1.1.0.pom>central=

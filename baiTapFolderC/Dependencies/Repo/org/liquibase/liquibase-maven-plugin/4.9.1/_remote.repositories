@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Oct 12 09:01:18 ICT 2022
+liquibase-maven-plugin-4.9.1.jar>central=
+liquibase-maven-plugin-4.9.1.pom>central=

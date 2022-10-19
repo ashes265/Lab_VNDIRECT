@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 29 13:37:33 ICT 2022
+netty-resolver-dns-4.1.79.Final.jar>=
+netty-resolver-dns-4.1.79.Final.jar>central=
+netty-resolver-dns-4.1.79.Final.pom>central=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 04 09:40:18 ICT 2022
+jasperreports-3.7.5.jar>=
+jasperreports-3.7.5.jar>central=
+jasperreports-3.7.5.pom>central=

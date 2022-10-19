@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 22 20:01:00 ICT 2022
+jetty-webapp-10.0.12.jar>central=
+jetty-webapp-10.0.12.pom>central=

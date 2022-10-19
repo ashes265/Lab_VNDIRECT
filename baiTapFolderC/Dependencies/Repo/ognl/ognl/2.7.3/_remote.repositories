@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 04 09:40:18 ICT 2022
+ognl-2.7.3.jar>=
+ognl-2.7.3.jar>central=
+ognl-2.7.3.pom>central=

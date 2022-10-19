@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Sep 28 09:15:33 ICT 2022
+log4j-1.2.12.jar>=
+log4j-1.2.12.jar>central=
+log4j-1.2.12.pom>central=

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+<mirrors>
+    <mirror>
+        <id>nexus</id>
+        <url>http://nexus.vndirect.com.vn/content/groups/public/</url>
+        <mirrorOf>nexus</mirrorOf>
+    </mirror>
+</mirrors>
+<!--
+<servers>
+   <server>
+     <id>nexus</id>
+     <username>developer</username>
+     <password>Vnds@2019</password>
+   </server>
+</servers>
+-->
+
+<servers>
+    <server>
+        <id>nexus</id>
+        <username>developer</username>
+        <password>Vnds@2019</password>
+    </server>
+    <server>
+        <id>snapshot</id>
+        <username>deployment</username>
+        <password>Vnds@2019</password>
+    </server>
+    <server>
+        <id>release</id>
+        <username>deployment</username>
+        <password>Vnds@2019</password>
+    </server>
+</servers>
+<profiles>
+    <profile>
+        <id>nexus</id>
+        <repositories>
+            <repository>
+                <id>nexus</id>
+                <url>http://nexus.vndirect.com.vn/content/groups/public/</url>
+                <snapshots>
+                    <enabled>true</enabled>
+                </snapshots>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+            </repository>
+            <repository>
+                <id>fusesource</id>
+                <url>http://repo.fusesource.com/nexus/content/groups/public/</url>
+                <snapshots>
+                    <enabled>false</enabled>
+                </snapshots>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+            </repository>
+            <!--
+             <repository>
+                           <id>MarketceteraRepo</id>
+                           <url>http://repo.marketcetera.org/maven</url>
+                           <releases>
+                                 <enabled>true</enabled>
+                           </releases>
+                    </repository>
+            -->
+            <repository>
+                <id>Maven Central</id>
+                <url>http://repo1.maven.org/maven2</url>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+            </repository>
+            <repository>
+                <id>jboss</id>
+                <url>http://repository.jboss.org/nexus/content/groups/public/</url>
+                <snapshots>
+                    <enabled>false</enabled>
+                </snapshots>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+            </repository>
+        </repositories>
+    </profile>
+</profiles>
+<activeProfiles>
+    <!--make the profile active all the time -->
+    <activeProfile>nexus</activeProfile>
+</activeProfiles>
+</settings>

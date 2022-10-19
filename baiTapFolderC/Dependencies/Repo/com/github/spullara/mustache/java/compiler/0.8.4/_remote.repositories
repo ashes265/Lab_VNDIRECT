@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 04 09:40:18 ICT 2022
+compiler-0.8.4.jar>=
+compiler-0.8.4.jar>central=
+compiler-0.8.4.pom>central=

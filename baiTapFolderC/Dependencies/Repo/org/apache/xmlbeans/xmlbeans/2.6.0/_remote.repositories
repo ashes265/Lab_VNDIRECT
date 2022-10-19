@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 04 09:40:18 ICT 2022
+xmlbeans-2.6.0.jar>=
+xmlbeans-2.6.0.jar>central=
+xmlbeans-2.6.0.pom>central=

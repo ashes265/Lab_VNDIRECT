@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Oct 06 08:59:10 ICT 2022
+micrometer-observation-1.10.0-M6.jar>spring-milestones=
+micrometer-observation-1.10.0-M6.pom>spring-milestones=

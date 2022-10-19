@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Sep 28 09:15:33 ICT 2022
+derby-10.15.2.0.jar>=
+derby-10.15.2.0.jar>central=
+derby-10.15.2.0.pom>central=
