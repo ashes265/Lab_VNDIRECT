@@ -1,0 +1,2 @@
+[2022-10-19 13:20:47] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@2b960a7
+[2022-10-19 13:25:40] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@188ac8a3

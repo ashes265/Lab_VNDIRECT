@@ -1,0 +1,405 @@
+[2022-10-18 09:15:45] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@19a20bb2
+[2022-10-18 09:15:45] ERROR [main] AppConfig.configureDefaultServletHandling(47) | java.sql.SQLSyntaxErrorException: Syntax error: Encountered "(" at line 1, column 66.
+java.sql.SQLSyntaxErrorException: Syntax error: Encountered "(" at line 1, column 66.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.execute(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeLargeUpdate(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeUpdate(Unknown Source)
+	at testSpring.service.springservice.AppConfig.createTable(AppConfig.java:84)
+	at testSpring.service.springservice.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at testSpring.service.springservice.SpringServiceApplication.main(SpringServiceApplication.java:10)
+Caused by: ERROR 42X01: Syntax error: Encountered "(" at line 1, column 66.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatementOrSearchCondition(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 31 more
+[2022-10-18 09:17:46] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@19a20bb2
+[2022-10-18 09:17:46] ERROR [main] AppConfig.configureDefaultServletHandling(47) | java.sql.SQLSyntaxErrorException: Syntax error: Encountered "(" at line 1, column 55.
+java.sql.SQLSyntaxErrorException: Syntax error: Encountered "(" at line 1, column 55.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.execute(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeLargeUpdate(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeUpdate(Unknown Source)
+	at testSpring.service.springservice.AppConfig.createTable(AppConfig.java:84)
+	at testSpring.service.springservice.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at testSpring.service.springservice.SpringServiceApplication.main(SpringServiceApplication.java:10)
+Caused by: ERROR 42X01: Syntax error: Encountered "(" at line 1, column 55.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatementOrSearchCondition(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 31 more
+[2022-10-18 09:18:34] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@19a20bb2
+[2022-10-18 09:39:20] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@7a3b7122
+[2022-10-18 09:39:20] ERROR [main] AppConfig.configureDefaultServletHandling(47) | java.sql.SQLException: Failed to start database 'D:/University/OJT/Test/spring-service/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+java.sql.SQLException: Failed to start database 'D:/University/OJT/Test/spring-service/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at testSpring.service.springservice.AppConfig.createTable(AppConfig.java:78)
+	at testSpring.service.springservice.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at testSpring.service.springservice.SpringServiceApplication.main(SpringServiceApplication.java:10)
+Caused by: ERROR XJ040: Failed to start database 'D:/University/OJT/Test/spring-service/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 46 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database D:\University\OJT\Test\spring-service\db\userdb1.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 43 more
+[2022-10-18 09:41:25] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@d675f9f
+[2022-10-18 09:41:43] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@4d9754a8
+[2022-10-18 09:41:44] ERROR [main] AppConfig.configureDefaultServletHandling(47) | java.sql.SQLException: Table/View 'DERIVATIVE' already exists in Schema 'SA'.
+java.sql.SQLException: Table/View 'DERIVATIVE' already exists in Schema 'SA'.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.execute(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeLargeUpdate(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeUpdate(Unknown Source)
+	at testSpring.service.springservice.AppConfig.createTable(AppConfig.java:84)
+	at testSpring.service.springservice.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at testSpring.service.springservice.SpringServiceApplication.main(SpringServiceApplication.java:10)
+Caused by: ERROR X0Y32: Table/View 'DERIVATIVE' already exists in Schema 'SA'.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.duplicateDescriptorException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.addDescriptor(Unknown Source)
+	at org.apache.derby.impl.sql.execute.CreateTableConstantAction.executeConstantAction(Unknown Source)
+	at org.apache.derby.impl.sql.execute.MiscResultSet.open(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.executeStmt(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.execute(Unknown Source)
+	... 32 more
+[2022-10-18 09:46:17] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@4d9754a8
+[2022-10-18 09:46:30] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@7a3b7122
+[2022-10-18 09:46:30] ERROR [main] AppConfig.configureDefaultServletHandling(47) | java.sql.SQLException: Table/View 'DERIVATIVE' already exists in Schema 'SA'.
+java.sql.SQLException: Table/View 'DERIVATIVE' already exists in Schema 'SA'.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.execute(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeLargeUpdate(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeUpdate(Unknown Source)
+	at testSpring.service.springservice.AppConfig.createTable(AppConfig.java:84)
+	at testSpring.service.springservice.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at testSpring.service.springservice.SpringServiceApplication.main(SpringServiceApplication.java:10)
+Caused by: ERROR X0Y32: Table/View 'DERIVATIVE' already exists in Schema 'SA'.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.duplicateDescriptorException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.addDescriptor(Unknown Source)
+	at org.apache.derby.impl.sql.execute.CreateTableConstantAction.executeConstantAction(Unknown Source)
+	at org.apache.derby.impl.sql.execute.MiscResultSet.open(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.executeStmt(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.execute(Unknown Source)
+	... 32 more
+[2022-10-18 09:47:02] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@4d9754a8
+[2022-10-18 09:47:12] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@58af5076
+[2022-10-18 09:47:12] ERROR [main] AppConfig.configureDefaultServletHandling(47) | java.sql.SQLException: Table/View 'DERIVATIVE' already exists in Schema 'APP'.
+java.sql.SQLException: Table/View 'DERIVATIVE' already exists in Schema 'APP'.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.execute(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeLargeUpdate(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeUpdate(Unknown Source)
+	at testSpring.service.springservice.AppConfig.createTable(AppConfig.java:84)
+	at testSpring.service.springservice.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at testSpring.service.springservice.SpringServiceApplication.main(SpringServiceApplication.java:10)
+Caused by: ERROR X0Y32: Table/View 'DERIVATIVE' already exists in Schema 'APP'.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.duplicateDescriptorException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.addDescriptor(Unknown Source)
+	at org.apache.derby.impl.sql.execute.CreateTableConstantAction.executeConstantAction(Unknown Source)
+	at org.apache.derby.impl.sql.execute.MiscResultSet.open(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.executeStmt(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.execute(Unknown Source)
+	... 32 more
+[2022-10-18 10:41:17] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6ca372ef
+[2022-10-18 10:41:17] INFO [main] AppConfig.createTable(81) | Table derivative already exists!
+[2022-10-18 10:41:46] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@714f3da4
+[2022-10-18 10:41:46] INFO [main] AppConfig.createTable(81) | Table derivative already exists!
+[2022-10-18 10:47:15] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@51ec2856
+[2022-10-18 10:47:15] INFO [main] AppConfig.createTable(81) | Table derivative already exists!
+[2022-10-18 10:49:25] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6ae62c7e
+[2022-10-18 10:49:25] INFO [main] AppConfig.createTable(81) | Table derivative already exists!
+[2022-10-18 10:56:31] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@37468787
+[2022-10-18 10:56:31] INFO [main] AppConfig.createTable(81) | Table derivative already exists!
+[2022-10-18 11:00:32] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6f70a21b
+[2022-10-18 11:01:58] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6ae62c7e
+[2022-10-18 11:15:26] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6d11ceef
+[2022-10-18 11:16:53] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6ae62c7e
+[2022-10-18 11:18:56] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6ae62c7e
+[2022-10-18 11:20:26] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@2e869098
+[2022-10-18 11:24:24] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6f70a21b
+[2022-10-18 11:25:29] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@7fb66650
+[2022-10-18 11:26:13] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@2f4e40d7
+[2022-10-18 11:27:16] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@2f4e40d7
+[2022-10-18 11:28:29] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@663bb8ef
+[2022-10-18 11:31:17] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@2b960a7
+[2022-10-18 11:31:48] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@60e9c3a5
+[2022-10-18 11:32:06] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@37b52340
+[2022-10-18 11:35:20] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@31dfc6f5
+[2022-10-18 11:37:15] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@5b275811
+[2022-10-18 11:37:26] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@2b960a7
+[2022-10-18 13:15:12] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@26d41711
+[2022-10-18 13:34:09] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@31dfc6f5
+[2022-10-18 13:38:04] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@31dfc6f5
+[2022-10-18 13:38:35] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@31dfc6f5
+[2022-10-18 13:44:24] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@2b960a7
+[2022-10-18 13:44:55] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@298f0a0b
+[2022-10-18 14:07:07] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@31dfc6f5
+[2022-10-18 14:22:03] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@37b52340
+[2022-10-18 14:48:46] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@37b52340
+[2022-10-18 15:00:00] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@31dfc6f5
+[2022-10-18 15:03:06] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@2b960a7
+[2022-10-18 15:04:18] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@663bb8ef
+[2022-10-18 15:05:50] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@31dfc6f5
+[2022-10-18 15:07:21] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@31dfc6f5
+[2022-10-18 15:09:01] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@31dfc6f5
+[2022-10-18 15:09:15] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@31dfc6f5
+[2022-10-18 15:26:23] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@298f0a0b
+[2022-10-18 15:32:51] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@31dfc6f5
+[2022-10-18 15:34:21] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@31dfc6f5
+[2022-10-18 15:35:23] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@2b960a7
+[2022-10-18 15:39:49] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@2b960a7
+[2022-10-18 15:44:34] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@2b960a7
