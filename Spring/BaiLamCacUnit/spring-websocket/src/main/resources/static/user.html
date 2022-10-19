@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HN SPRING WEB SOCKET</title>
+    <script src="/js/sockjs-0.3.4.min.js"></script>
+    <script src="/js/stomp.js"></script>
+    <script type="text/javascript">
+        var stompClient = null;
+
+        var postUser = requestParam();
+
+        function connect() {
+            var socket = new SockJS('/user');
+            stompClient = Stomp.over(socket);
+            stompClient.connect({}, function (frame) {
+                console.log('Connected:' + frame);
+                stompClient.subscribe('/topic/chat', function (message) {
+                    var text = JSON.parse(message.body).content;
+                    showMessage(text)
+                });
+                loadGroups();
+            });
+            document.getElementById('name').innerHTML = postUser;
+            if (postUser != undefined) {
+                loadinfoUser();
+            }
+        }
+
+
+        function loadGroups() {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+                    console.log(xmlhttp.responseText);
+                    var groups = JSON.parse(xmlhttp.responseText);
+                    var select = document.getElementById('group');
+                    for (var index in groups) {
+                        var group = groups[index];
+                        select.appendChild(createOptionGroup(group));
+                    }
+                }
+            };
+            xmlhttp.open("GET", "/groups", true);
+            xmlhttp.send();
+        }
+
+        function createOptionGroup(group) {
+            var option = document.createElement('option');
+            option.appendChild(document.createTextNode(group.name));
+            var att = document.createAttribute("value");
+            att.value = group.id;
+            option.setAttributeNode(att);
+            return option;
+        }
+
+
+        function showMessage(text) {
+            var response = document.getElementById('response');
+            var p = document.createElement('p');
+            p.appendChild(document.createTextNode(text));
+            response.appendChild(p);
+        }
+
+        function save() {
+            var username = document.getElementById('username').value;
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+            var age = document.getElementById('age').value;
+            var groupId = document.getElementById('group').value;
+            console.log("Sending...." + username);
+            stompClient.send("/app/user", {}, JSON.stringify({
+                'username': username,
+                'password': password,
+                'email': email,
+                'age': age,
+                'groupId': groupId,
+                'content': requestParam()
+            }));
+        }
+
+        function loadinfoUser() {
+            let xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+                    console.log(xmlhttp.responseText);
+                    let user = JSON.parse(xmlhttp.responseText);
+                    document.getElementById("username").value = user.username;
+                    document.getElementById("password").value = user.password;
+                    document.getElementById("email").value = user.email;
+                    document.getElementById("age").value = user.age;
+                    document.getElementById("group").value = user.groupId;
+                    document.getElementById("username").readOnly = true;
+                }
+            };
+            xmlhttp.open("GET", "/user/get/"+postUser, true);
+            xmlhttp.send();
+        }
+
+        function requestParam() {
+            var url_string = window.location.href;
+            console.log('link la'+url_string);
+            var url = new URL(url_string);
+            var paramValue = url.searchParams.get("name");
+            return paramValue;
+
+            // if (name = (new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(location.search))
+            //     return decodeURIComponent(name[1]);
+        }
+
+    </script>
+</head>
+<body onload="connect()">
+<h1>Add User</h1>
+<form method="post" action="javascript:save();">
+    <p>Username: <input type="text" id="username" name="username"/></p>
+    <p>Password: <input type="text" id="password" name="password"/></p>
+    <p>Email: <input type="text" id="email" name="email"/></p>
+    <p>Age: <input type="text" id="age" name="Age"/></p>
+<!--            <p>Group(ID): <input type="text" id="groupId" name="groupId"/></p>-->
+    <p>Group(ID)
+        <select id="group" name="groupId"></select>
+    </p>
+    <p class="submit">
+        <input type="submit" name="save" value="Save">
+    </p>
+</form>
+<p id="name"></p>
+<p id="response"></p>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:bean="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context-4.2.xsd
+                        http://www.springframework.org/schema/mvc
+                        http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <context:component-scan base-package="edu.java.spring.controller"/>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <bean id="uni" class="edu.java.spring.model.University">
+        <constructor-arg name="name" value="Dai Hoc Bon Ba"></constructor-arg>
+        <constructor-arg name="address" value="HANOI"/>
+    </bean>
+    <bean id="stu" class="edu.java.spring.model.Student">
+        <constructor-arg name="name" value="Quang Teo"></constructor-arg>
+        <constructor-arg name="id" value="1"/>
+        <constructor-arg>
+            <ref bean="uni"/>
+        </constructor-arg>
+    </bean>
+
+    <bean id="stu2" class="edu.java.spring.model.Student">
+        <constructor-arg name="name" value="Vu Dai"></constructor-arg>
+        <constructor-arg name="id" value="2"/>
+        <constructor-arg>
+            <ref bean="uni"/>
+        </constructor-arg>
+    </bean>
+
+    <bean id="class" class="edu.java.spring.model.ClassP">
+        <property name="major" value="Software Engineering"/>
+        <property name="students">
+            <list>
+                <ref bean="stu"/>
+                <ref bean="stu2"/>
+            </list>
+        </property>
+    </bean>
+
+</beans>
+
+        <!--        xmlns:mvc="http://www.springframework.org/schema/mvc"-->

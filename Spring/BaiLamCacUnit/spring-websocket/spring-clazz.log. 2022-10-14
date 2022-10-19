@@ -1,0 +1,4 @@
+[2022-10-14 11:26:56] INFO [clientInboundChannel-19] UserDAOImpl.insert(46) | Save user caobaqua done!caobaqua
+[2022-10-14 13:18:42] INFO [clientInboundChannel-7] UserDAOImpl.insert(46) | Save user phunghai done!phunghai
+[2022-10-14 13:30:16] INFO [clientInboundChannel-7] UserDAOImpl.insert(46) | Save user minh done!minh
+[2022-10-14 13:31:11] INFO [clientInboundChannel-7] UserDAOImpl.insert(46) | Save user minh2 done!minh2

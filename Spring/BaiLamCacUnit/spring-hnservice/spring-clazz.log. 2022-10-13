@@ -1,0 +1,1257 @@
+[2022-10-13 09:01:44] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@c889805
+[2022-10-13 09:01:44] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:01:44] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:03:09] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@383c3eb3
+[2022-10-13 09:03:10] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:03:10] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:04:26] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@63f855b
+[2022-10-13 09:04:26] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:04:26] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:06:21] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@63f855b
+[2022-10-13 09:06:22] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:06:22] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:07:42] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@4cffcc61
+[2022-10-13 09:07:43] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:07:43] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:08:40] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@4087c7fc
+[2022-10-13 09:08:40] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:08:40] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:10:20] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@55fdf7f9
+[2022-10-13 09:10:20] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:10:20] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:22:12] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@4cffcc61
+[2022-10-13 09:22:12] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:22:12] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:23:43] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@3d9f5016
+[2022-10-13 09:23:44] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:23:44] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:25:09] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@4cffcc61
+[2022-10-13 09:25:09] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:25:09] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:28:35] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@a6c54c3
+[2022-10-13 09:28:35] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:28:35] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:29:27] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@23ed382c
+[2022-10-13 09:29:27] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:29:27] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:30:43] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@4373f66f
+[2022-10-13 09:30:43] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:30:43] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:32:28] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@4cffcc61
+[2022-10-13 09:32:28] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:32:28] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:33:49] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@44114b9f
+[2022-10-13 09:33:49] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:33:49] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:39:28] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@4373f66f
+[2022-10-13 09:39:28] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:39:28] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:40:44] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@516592b1
+[2022-10-13 09:40:44] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:40:44] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:42:40] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@1ec22831
+[2022-10-13 09:42:40] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:42:40] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:46:11] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@c889805
+[2022-10-13 09:46:11] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:46:11] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:48:13] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@57a6a933
+[2022-10-13 09:48:13] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:48:13] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:48:21] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@5a4ad21f : read
+[2022-10-13 09:48:21] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@2ef0d46c : read
+[2022-10-13 09:48:21] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@7b83eb25 : read
+[2022-10-13 09:48:21] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@279940c1 : read
+[2022-10-13 09:48:21] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@6502de50 : read
+[2022-10-13 09:48:21] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@4df93528 : read
+[2022-10-13 09:48:21] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@29c73571 : read
+[2022-10-13 09:48:21] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@44b5e7c0 : read
+[2022-10-13 09:48:21] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@37365158 : read
+[2022-10-13 09:48:21] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@336262e3 : read
+[2022-10-13 09:48:21] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@231ea543 : read
+[2022-10-13 09:49:53] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6baf25d7
+[2022-10-13 09:49:53] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:49:53] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:50:01] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@57d0b252 : read
+[2022-10-13 09:50:01] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@48ba682 : read
+[2022-10-13 09:50:01] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@122cf0c3 : read
+[2022-10-13 09:50:01] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@1a19ff5b : read
+[2022-10-13 09:50:01] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@3fd92805 : read
+[2022-10-13 09:50:01] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@66bf36ca : read
+[2022-10-13 09:50:01] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@13e07836 : read
+[2022-10-13 09:50:01] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@4656ae36 : read
+[2022-10-13 09:50:01] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@30b92ff9 : read
+[2022-10-13 09:50:01] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@2f2f5642 : read
+[2022-10-13 09:50:01] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@3f9eba59 : read
+[2022-10-13 09:57:58] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6f3f0ae
+[2022-10-13 09:57:58] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:57:58] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:58:05] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@60bd61af : read
+[2022-10-13 09:58:05] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@25eb9062 : read
+[2022-10-13 09:58:05] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@58d2770c : read
+[2022-10-13 09:58:05] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@6e345b72 : read
+[2022-10-13 09:58:05] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@27b3bace : read
+[2022-10-13 09:58:05] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@5ea256da : read
+[2022-10-13 09:58:05] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@15832015 : read
+[2022-10-13 09:58:05] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@5920061c : read
+[2022-10-13 09:58:05] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@63ffa23c : read
+[2022-10-13 09:58:05] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@2fa72c1f : read
+[2022-10-13 09:58:05] INFO [http-nio-8080-exec-2] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@23283276 : read
+[2022-10-13 09:58:49] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6f3f0ae
+[2022-10-13 09:58:49] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 09:58:49] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 09:58:59] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@1e9ffd7b : read
+[2022-10-13 09:58:59] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@3e1519c5 : read
+[2022-10-13 09:58:59] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@1b9cda9e : read
+[2022-10-13 09:58:59] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@1f6722d5 : read
+[2022-10-13 09:58:59] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@51355c2d : read
+[2022-10-13 09:58:59] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@4778bcff : read
+[2022-10-13 09:58:59] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@3acdc6a4 : read
+[2022-10-13 09:58:59] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@1c1a3aa2 : read
+[2022-10-13 09:58:59] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@6735c938 : read
+[2022-10-13 09:58:59] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@65a81e65 : read
+[2022-10-13 09:58:59] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(16) | ----> edu.hanoi.service.model.User@31040c92 : read
+[2022-10-13 10:15:20] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@4373f66f
+[2022-10-13 10:15:20] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 10:15:20] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 10:22:33] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@4373f66f
+[2022-10-13 10:22:33] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 10:22:33] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 10:23:34] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@4373f66f
+[2022-10-13 10:23:34] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 10:23:34] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 10:23:54] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@7f89b0ce : read
+[2022-10-13 10:23:54] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@7dd5cdf8 : read
+[2022-10-13 10:23:54] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@4790f8f6 : read
+[2022-10-13 10:23:54] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@46324722 : read
+[2022-10-13 10:23:54] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@740f80ea : read
+[2022-10-13 10:23:54] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@27e6399e : read
+[2022-10-13 10:23:54] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@677122dc : read
+[2022-10-13 10:23:54] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@33ae6247 : read
+[2022-10-13 10:23:54] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@3baebc08 : read
+[2022-10-13 10:23:54] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@2d92582a : read
+[2022-10-13 10:23:54] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@439bf886 : read
+[2022-10-13 10:26:16] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@399ca607
+[2022-10-13 10:26:16] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 10:26:16] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 10:41:21] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@d499c13
+[2022-10-13 10:41:21] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 10:41:21] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 10:41:36] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@2ddb3ae8
+[2022-10-13 10:41:36] ERROR [main] AppConfig.configureDefaultServletHandling(45) | java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at edu.hanoi.service.AppConfig.createTable(AppConfig.java:76)
+	at edu.hanoi.service.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: ERROR XJ040: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 72 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database D:\University\OJT\InteliJiFolder\spring-hnservice\db\userdb1.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 69 more
+[2022-10-13 10:41:58] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6ccac6f4
+[2022-10-13 10:41:58] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 10:41:58] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 10:42:09] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@79518e00
+[2022-10-13 10:42:09] ERROR [main] AppConfig.configureDefaultServletHandling(45) | java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at edu.hanoi.service.AppConfig.createTable(AppConfig.java:76)
+	at edu.hanoi.service.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: ERROR XJ040: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 72 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database D:\University\OJT\InteliJiFolder\spring-hnservice\db\userdb1.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 69 more
+[2022-10-13 10:43:05] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6ccac6f4
+[2022-10-13 10:43:05] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 10:43:05] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 10:43:12] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@79518e00
+[2022-10-13 10:43:12] ERROR [main] AppConfig.configureDefaultServletHandling(45) | java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at edu.hanoi.service.AppConfig.createTable(AppConfig.java:76)
+	at edu.hanoi.service.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: ERROR XJ040: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 72 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database D:\University\OJT\InteliJiFolder\spring-hnservice\db\userdb1.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 69 more
+[2022-10-13 10:44:24] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@33188612
+[2022-10-13 10:44:24] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 10:44:24] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 10:44:43] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6e3ecf5c
+[2022-10-13 10:44:43] ERROR [main] AppConfig.configureDefaultServletHandling(45) | java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at edu.hanoi.service.AppConfig.createTable(AppConfig.java:76)
+	at edu.hanoi.service.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: ERROR XJ040: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 72 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database D:\University\OJT\InteliJiFolder\spring-hnservice\db\userdb1.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 69 more
+[2022-10-13 10:45:26] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@33188612
+[2022-10-13 10:45:26] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 10:45:26] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 10:45:34] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@1d61a348
+[2022-10-13 10:45:34] ERROR [main] AppConfig.configureDefaultServletHandling(45) | java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at edu.hanoi.service.AppConfig.createTable(AppConfig.java:76)
+	at edu.hanoi.service.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: ERROR XJ040: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 72 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database D:\University\OJT\InteliJiFolder\spring-hnservice\db\userdb1.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 69 more
+[2022-10-13 10:46:45] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@33188612
+[2022-10-13 10:46:45] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 10:46:45] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 10:47:00] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@b47756e : read
+[2022-10-13 10:47:00] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@70e8e95 : read
+[2022-10-13 10:47:00] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@7ee52e3a : read
+[2022-10-13 10:47:00] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@613317c0 : read
+[2022-10-13 10:47:00] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@516fe28d : read
+[2022-10-13 10:47:00] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@22e6b413 : read
+[2022-10-13 10:47:00] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@75a5ca8b : read
+[2022-10-13 10:47:00] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@c515ee8 : read
+[2022-10-13 10:47:00] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@2204ae65 : read
+[2022-10-13 10:47:00] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@35d5c01a : read
+[2022-10-13 10:47:00] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@6e7fb5b9 : read
+[2022-10-13 10:48:02] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@66236a0a
+[2022-10-13 10:48:02] ERROR [main] AppConfig.configureDefaultServletHandling(45) | java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at edu.hanoi.service.AppConfig.createTable(AppConfig.java:76)
+	at edu.hanoi.service.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: ERROR XJ040: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 72 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database D:\University\OJT\InteliJiFolder\spring-hnservice\db\userdb1.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 69 more
+[2022-10-13 10:50:32] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@33188612
+[2022-10-13 10:50:32] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 10:50:32] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 10:50:44] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@5634a861
+[2022-10-13 10:50:44] ERROR [main] AppConfig.configureDefaultServletHandling(45) | java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at edu.hanoi.service.AppConfig.createTable(AppConfig.java:76)
+	at edu.hanoi.service.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: ERROR XJ040: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 72 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database D:\University\OJT\InteliJiFolder\spring-hnservice\db\userdb1.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 69 more
+[2022-10-13 10:52:13] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@7a2ab862
+[2022-10-13 10:52:13] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 10:52:13] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 10:52:33] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@1d61a348
+[2022-10-13 10:52:33] ERROR [main] AppConfig.configureDefaultServletHandling(45) | java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at edu.hanoi.service.AppConfig.createTable(AppConfig.java:76)
+	at edu.hanoi.service.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: ERROR XJ040: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 72 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database D:\University\OJT\InteliJiFolder\spring-hnservice\db\userdb1.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 69 more
+[2022-10-13 10:53:08] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@78a515e4
+[2022-10-13 10:53:08] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 10:53:08] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 10:53:09] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@73e63b4d : read
+[2022-10-13 10:53:09] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@2faae7f6 : read
+[2022-10-13 10:53:09] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@673a5aa7 : read
+[2022-10-13 10:53:09] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@1443539 : read
+[2022-10-13 10:53:09] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@5b160208 : read
+[2022-10-13 10:53:09] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@237bdbcb : read
+[2022-10-13 10:53:09] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@16a15261 : read
+[2022-10-13 10:53:09] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@36ec4071 : read
+[2022-10-13 10:53:09] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@5d8112e6 : read
+[2022-10-13 10:53:09] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@20d92f1e : read
+[2022-10-13 10:53:09] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@3cf7433e : read
+[2022-10-13 11:00:55] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@6a12c7a8
+[2022-10-13 11:00:55] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 11:00:55] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 11:00:57] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@16a15261 : read
+[2022-10-13 11:00:57] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@544733a4 : read
+[2022-10-13 11:00:57] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@522f74a1 : read
+[2022-10-13 11:00:57] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@59700156 : read
+[2022-10-13 11:00:57] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@1e6e29d6 : read
+[2022-10-13 11:00:57] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@7359f3ac : read
+[2022-10-13 11:00:57] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@5afa0b1a : read
+[2022-10-13 11:00:57] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@3d9cba2 : read
+[2022-10-13 11:00:57] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@6c167296 : read
+[2022-10-13 11:00:57] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@506e382b : read
+[2022-10-13 11:00:57] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@5a464be7 : read
+[2022-10-13 11:01:25] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@7be1ce6a
+[2022-10-13 11:01:25] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 11:01:25] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 11:01:27] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@20505460 : read
+[2022-10-13 11:01:27] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@1e2bc241 : read
+[2022-10-13 11:01:27] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@543196f9 : read
+[2022-10-13 11:01:27] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@4d7fba20 : read
+[2022-10-13 11:01:27] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@112b3298 : read
+[2022-10-13 11:01:27] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@51d2d336 : read
+[2022-10-13 11:01:27] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@90c01ab : read
+[2022-10-13 11:01:27] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@39921410 : read
+[2022-10-13 11:01:27] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@71e55e48 : read
+[2022-10-13 11:01:27] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@36696821 : read
+[2022-10-13 11:01:27] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@5f01361e : read
+[2022-10-13 11:01:44] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@692dba54
+[2022-10-13 11:01:44] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 11:01:44] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 11:01:45] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@506e382b : read
+[2022-10-13 11:01:45] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@34d0c331 : read
+[2022-10-13 11:01:45] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@3958db82 : read
+[2022-10-13 11:01:45] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@577f81a0 : read
+[2022-10-13 11:01:45] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@202d1424 : read
+[2022-10-13 11:01:45] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@1256925b : read
+[2022-10-13 11:01:45] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@6dadcf58 : read
+[2022-10-13 11:01:45] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@467421cc : read
+[2022-10-13 11:01:45] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@eb09112 : read
+[2022-10-13 11:01:45] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@28521ed5 : read
+[2022-10-13 11:01:45] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@2b06c388 : read
+[2022-10-13 11:02:04] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@1fc713c9
+[2022-10-13 11:02:04] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-13 11:02:04] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-13 11:02:06] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@3958db82 : read
+[2022-10-13 11:02:06] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@28521ed5 : read
+[2022-10-13 11:02:06] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@2b06c388 : read
+[2022-10-13 11:02:06] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@4c9bed65 : read
+[2022-10-13 11:02:06] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@4629dde5 : read
+[2022-10-13 11:02:06] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@7e35d743 : read
+[2022-10-13 11:02:06] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@63b2418e : read
+[2022-10-13 11:02:06] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@70d16858 : read
+[2022-10-13 11:02:06] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@789f5552 : read
+[2022-10-13 11:02:06] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@28c00acd : read
+[2022-10-13 11:02:06] INFO [main] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@590f806a : read

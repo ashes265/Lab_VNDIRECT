@@ -1,0 +1,170 @@
+[2022-10-17 09:14:58] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@d499c13
+[2022-10-17 09:14:58] ERROR [main] AppConfig.configureDefaultServletHandling(45) | java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93, see the next exception for details.
+java.sql.SQLException: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at edu.hanoi.service.AppConfig.createTable(AppConfig.java:76)
+	at edu.hanoi.service.AppConfig.configureDefaultServletHandling(AppConfig.java:35)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.configureDefaultServletHandling(WebMvcConfigurerComposite.java:74)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.configureDefaultServletHandling(DelegatingWebMvcConfiguration.java:73)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.defaultServletHandlerMapping(WebMvcConfigurationSupport.java:644)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at edu.hanoi.service.SpringHnserviceApplication.main(SpringHnserviceApplication.java:11)
+Caused by: ERROR XJ040: Failed to start database 'D:/University/OJT/InteliJiFolder/spring-hnservice/db/userdb1' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 46 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database D:\University\OJT\InteliJiFolder\spring-hnservice\db\userdb1.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 43 more
+[2022-10-17 17:29:19] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@74834afd
+[2022-10-17 17:29:20] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-17 17:29:20] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@135d7e15 : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@7dafa97a : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@2e3b95d6 : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@71498a94 : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@4d22e8f7 : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@4d466c50 : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@3fa1d50b : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@281e541 : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@583ed0b6 : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@2664030d : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@175c9347 : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@1afac700 : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@346f0f89 : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@32950e62 : read
+[2022-10-17 17:29:40] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@412065dc : read
+[2022-10-17 17:30:38] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@74834afd
+[2022-10-17 17:30:38] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-17 17:30:38] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@2eebf4dd : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@4cdc8218 : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@3756de45 : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@7b6acded : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@1c87c8cd : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@34635507 : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@35461138 : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@186eb7d8 : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@3a0dd5b8 : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@14686493 : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@11a278f7 : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@7c1fdd6c : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@286b6742 : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@7f70c220 : read
+[2022-10-17 17:30:41] INFO [http-nio-8080-exec-1] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@7d1778f9 : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@6090bc0e : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@40bfeca7 : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@5d1b884b : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@1e017ea2 : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@7b94d1a0 : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@44f1d0a1 : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@452941a4 : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@5048d3cd : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@d8c01b5 : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@47b2ac7d : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@4899e14e : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@5ed9852b : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@3335b6ec : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@613635b3 : read
+[2022-10-17 17:30:47] INFO [http-nio-8080-exec-6] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@66223b4a : read
+[2022-10-17 17:33:05] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@75fd65c
+[2022-10-17 17:33:05] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-17 17:33:05] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@4f24ad77 : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@326a0b61 : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@7fd99cb8 : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@55be5f31 : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@441adab0 : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@26c9f051 : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@1546946c : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@32261622 : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@20fb958c : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@49d9b2ba : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@689dba19 : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@6a88262e : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@16a39906 : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@12eba50a : read
+[2022-10-17 17:33:13] INFO [http-nio-8080-exec-3] HNServicePermissionEvaluator.hasPermission(18) | ----> edu.hanoi.service.model.User@1723883c : read

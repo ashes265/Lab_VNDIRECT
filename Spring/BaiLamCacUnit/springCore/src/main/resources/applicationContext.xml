@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.2.xsd"
+>
+    <context:annotation-config></context:annotation-config>
+    <bean id="answer1" class="edu.java.model.Answer">
+        <constructor-arg value="1"/>
+        <constructor-arg value="Java is programing language"/>
+        <constructor-arg value="12/12/2001"/>
+    </bean>
+    <bean id="user1" class="edu.java.model.User">
+        <constructor-arg value="1"/>
+        <constructor-arg value="Phung Hai"/>
+        <constructor-arg value="hai@gmail.com"/>
+    </bean>
+
+    <bean id="question" class="edu.java.model.Question">
+        <constructor-arg value="1"/>
+        <constructor-arg value="What is your name"/>
+        <constructor-arg>
+            <map>
+                <entry key-ref="answer1" value-ref="user1"/>
+            </map>
+        </constructor-arg>
+    </bean>
+
+
+    <bean id="per4" class="edu.java.model.Person">
+        <property name="name" value="Hai"/>
+        <property name="age" value="21"/>
+    </bean>
+    <bean id="per2" class="edu.java.model.Person">
+        <property name="name" value="Hung"/>
+        <property name="age" value="22"/>
+    </bean>
+    <bean id="teacher" class="edu.java.model.Teacher">
+        <property name="mgv" value="1533"/>
+        <property name="school" value="FPT"/>
+    </bean>
+    <bean id="forClass" class="edu.java.model.Class" autowire="byName">
+        <property name="classId" value="1"/>
+    </bean>
+
+    <bean id="b1" class="edu.java.model.B">
+        <property name="b" value="1"/>
+    </bean>
+    <bean id="b2" class="edu.java.model.B">
+        <property name="b" value="2"/>
+    </bean>
+    <bean id="b3" class="edu.java.model.B">
+        <property name="b" value="3"/>
+    </bean>
+    <bean id="a" class="edu.java.model.A">
+        <property name="message" value="haha"/>
+    </bean>
+</beans>

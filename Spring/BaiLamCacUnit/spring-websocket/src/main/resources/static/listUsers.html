@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HN SPRING WEB SOCKET</title>
+    <script src="/js/sockjs-0.3.4.min.js"></script>
+    <script src="/js/stomp.js"></script>
+    <script type="text/javascript">
+        var stompClient = null;
+
+        function connect() {
+            var socket = new SockJS('/message');
+            stompClient = Stomp.over(socket);
+            stompClient.connect({}, function (frame) {
+                console.log('Connected:' + frame);
+                stompClient.subscribe('/topic/chat', function (message) {
+                    var text = JSON.parse(message.body).content;
+                    showMessage(text);
+                });
+                loadUsers();
+            });
+
+        }
+
+
+        function loadUsers() {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+                    console.log(xmlhttp.responseText);
+                    var users = JSON.parse(xmlhttp.responseText);
+                    var tr = document.getElementById("users");
+                    var ab = "";
+                    for (var index in users) {
+                        var user = users[index];
+                        ab += createOptionUser(user);
+                        document.getElementById("users").innerHTML = ab;
+                    }
+                }
+            };
+            xmlhttp.open("GET", "/listUsers", true);
+            xmlhttp.send();
+        }
+
+        function deleteUser(username) {
+            if (confirm("Do you want to delete")) {
+                stompClient.send("/app/user/delete/" + username, {}, JSON.stringify({
+                    "content": username
+                }));
+                loadUsers();
+            }
+
+        }
+
+        function createOptionUser(user) {
+            var td = `<tr id="${user.username}">
+        <td><a href="/user.html?name=${user.username}">${user.username}</a></td>
+        <td>${user.age}</td>
+        <td>
+        <a>UPDATE</a>
+        <a style="color: blue;cursor: pointer" onclick="deleteUser('${user.username}')">DELETE</a>
+        </td>
+        </tr>`;
+            return td;
+        }
+        function showMessage(text) {
+            var response = document.getElementById('response');
+            var p = document.createElement('p');
+            p.appendChild(document.createTextNode(text));
+            response.appendChild(p);
+        }
+    </script>
+</head>
+<body onload="connect()">
+<!--Users-->
+<!--<select id="users" name="users"></select>-->
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Action</th>
+    </tr>
+    <tbody id="users"></tbody>
+</table>
+<p id="response"></p>
+</body>
+</html>

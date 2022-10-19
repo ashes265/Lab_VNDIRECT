@@ -1,0 +1,20 @@
+[2022-10-12 17:02:44] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@9f674ac
+[2022-10-12 17:02:44] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-12 17:02:44] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-12 17:02:51] INFO [http-nio-8080-exec-1] UserRestServiceController.listUser(29) | 
+---------->[ROLE_USER]
+[2022-10-12 17:08:32] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@9f674ac
+[2022-10-12 17:08:32] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-12 17:08:32] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-12 17:11:22] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@7e62cfa3
+[2022-10-12 17:11:22] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-12 17:11:22] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-12 17:20:49] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@23cbbd07
+[2022-10-12 17:20:50] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-12 17:20:50] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-12 17:21:54] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@23cbbd07
+[2022-10-12 17:21:54] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-12 17:21:54] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!
+[2022-10-12 17:23:19] INFO [main] AppConfig.configureDefaultServletHandling(33) | start at org.springframework.jdbc.datasource.DriverManagerDataSource@1da4b3f9
+[2022-10-12 17:23:19] INFO [main] AppConfig.createTable(79) | Table HN_GROUP already exists!
+[2022-10-12 17:23:19] INFO [main] AppConfig.createTable(79) | Table HN_USER already exists!

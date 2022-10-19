@@ -1,0 +1,293 @@
+[2022-10-07 11:28:56] INFO [main] ContextStartEventHandler.onApplicationEvent(16) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@7f2b39a
+[2022-10-07 11:33:15] INFO [main] ContextStartEventHandler.onApplicationEvent(16) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@49b89425
+[2022-10-07 13:59:01] INFO [main] ContextStartEventHandler.onApplicationEvent(27) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@6403a4a5
+[2022-10-07 13:59:17] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 13:59:17] ERROR [main] ContextStartEventHandler.onApplicationEvent(25) | java.sql.SQLException: Table/View 'HN_GROUP' already exists in Schema 'APP'.
+java.sql.SQLException: Table/View 'HN_GROUP' already exists in Schema 'APP'.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.execute(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeLargeUpdate(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeUpdate(Unknown Source)
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:41)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:21)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:13)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.start(AbstractApplicationContext.java:1432)
+	at edu.hanoi.jazz.SpringJazzApplication.main(SpringJazzApplication.java:10)
+Caused by: ERROR X0Y32: Table/View 'HN_GROUP' already exists in Schema 'APP'.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.duplicateDescriptorException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.addDescriptor(Unknown Source)
+	at org.apache.derby.impl.sql.execute.CreateTableConstantAction.executeConstantAction(Unknown Source)
+	at org.apache.derby.impl.sql.execute.MiscResultSet.open(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.executeStmt(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.execute(Unknown Source)
+	... 14 more
+[2022-10-07 13:59:17] INFO [main] ContextStartEventHandler.onApplicationEvent(27) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@6403a4a5
+[2022-10-07 14:08:15] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 14:08:15] ERROR [main] ContextStartEventHandler.onApplicationEvent(25) | java.sql.SQLException: Table/View 'HN_GROUP' already exists in Schema 'APP'.
+java.sql.SQLException: Table/View 'HN_GROUP' already exists in Schema 'APP'.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.execute(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeLargeUpdate(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeUpdate(Unknown Source)
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:41)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:21)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:13)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.start(AbstractApplicationContext.java:1432)
+	at edu.hanoi.jazz.SpringJazzApplication.main(SpringJazzApplication.java:10)
+Caused by: ERROR X0Y32: Table/View 'HN_GROUP' already exists in Schema 'APP'.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.duplicateDescriptorException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.addDescriptor(Unknown Source)
+	at org.apache.derby.impl.sql.execute.CreateTableConstantAction.executeConstantAction(Unknown Source)
+	at org.apache.derby.impl.sql.execute.MiscResultSet.open(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.executeStmt(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.execute(Unknown Source)
+	... 14 more
+[2022-10-07 14:08:15] INFO [main] ContextStartEventHandler.onApplicationEvent(27) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@7ed49a7f
+[2022-10-07 14:10:55] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 14:10:55] INFO [main] ContextStartEventHandler.onApplicationEvent(27) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@7ed49a7f
+[2022-10-07 14:11:31] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@14fc9bd
+[2022-10-07 14:11:31] INFO [main] ContextStartEventHandler.createTable(40) | Table HN_GROUP already exists!
+[2022-10-07 14:11:31] ERROR [main] ContextStartEventHandler.onApplicationEvent(27) | java.sql.SQLException: Table/View 'HN_GROUP' already exists in Schema 'APP'.
+java.sql.SQLException: Table/View 'HN_GROUP' already exists in Schema 'APP'.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.execute(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeLargeUpdate(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeUpdate(Unknown Source)
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:42)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:23)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:13)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.start(AbstractApplicationContext.java:1432)
+	at edu.hanoi.jazz.SpringJazzApplication.main(SpringJazzApplication.java:10)
+Caused by: ERROR X0Y32: Table/View 'HN_GROUP' already exists in Schema 'APP'.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.duplicateDescriptorException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.addDescriptor(Unknown Source)
+	at org.apache.derby.impl.sql.execute.CreateTableConstantAction.executeConstantAction(Unknown Source)
+	at org.apache.derby.impl.sql.execute.MiscResultSet.open(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.executeStmt(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.execute(Unknown Source)
+	... 14 more
+[2022-10-07 14:13:32] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@790d8fdd
+[2022-10-07 14:13:32] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 14:13:32] ERROR [main] ContextStartEventHandler.onApplicationEvent(26) | java.sql.SQLException: Table/View 'HN_GROUP' already exists in Schema 'APP'.
+java.sql.SQLException: Table/View 'HN_GROUP' already exists in Schema 'APP'.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.execute(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeLargeUpdate(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeUpdate(Unknown Source)
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:41)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:22)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:13)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.start(AbstractApplicationContext.java:1432)
+	at edu.hanoi.jazz.SpringJazzApplication.main(SpringJazzApplication.java:10)
+Caused by: ERROR X0Y32: Table/View 'HN_GROUP' already exists in Schema 'APP'.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.duplicateDescriptorException(Unknown Source)
+	at org.apache.derby.impl.sql.catalog.DataDictionaryImpl.addDescriptor(Unknown Source)
+	at org.apache.derby.impl.sql.execute.CreateTableConstantAction.executeConstantAction(Unknown Source)
+	at org.apache.derby.impl.sql.execute.MiscResultSet.open(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.executeStmt(Unknown Source)
+	at org.apache.derby.impl.sql.GenericPreparedStatement.execute(Unknown Source)
+	... 14 more
+[2022-10-07 14:14:32] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@790d8fdd
+[2022-10-07 14:14:32] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 14:18:49] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@a90e2c1
+[2022-10-07 14:18:49] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 14:19:48] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@5bc63e20
+[2022-10-07 14:19:48] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 14:24:37] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@44aa2e13
+[2022-10-07 14:24:37] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 14:24:51] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@44aa2e13
+[2022-10-07 14:24:51] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 14:43:23] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@44aa2e13
+[2022-10-07 14:43:23] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 14:45:22] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@44aa2e13
+[2022-10-07 14:45:22] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 14:45:56] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@412ebe64
+[2022-10-07 14:45:56] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 14:46:09] INFO [http-nio-8080-exec-5] GroupController.addNew(31) | add new group -----> edu.hanoi.jazz.dao.model.Group@2e425f37
+[2022-10-07 14:56:12] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@1472208d
+[2022-10-07 14:56:12] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 14:56:34] INFO [http-nio-8080-exec-6] GroupController.addNew(35) | add new group -----> edu.hanoi.jazz.dao.model.Group@4fcaebf5
+[2022-10-07 15:03:45] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@5b2b8d86
+[2022-10-07 15:03:45] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:03:54] INFO [http-nio-8080-exec-5] GroupController.addNew(35) | add new group -----> edu.hanoi.jazz.dao.model.Group@34d0e62f
+[2022-10-07 15:04:03] INFO [http-nio-8080-exec-3] GroupController.addNew(35) | add new group -----> edu.hanoi.jazz.dao.model.Group@50d92eb4
+[2022-10-07 15:05:52] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@474749b8
+[2022-10-07 15:05:52] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:05:57] INFO [http-nio-8080-exec-3] GroupController.addNew(35) | add new group -----> edu.hanoi.jazz.dao.model.Group@298f67a5
+[2022-10-07 15:05:57] INFO [http-nio-8080-exec-3] GroupDAOImpl.insert(24) | Save group asdas dont!
+[2022-10-07 15:06:03] INFO [http-nio-8080-exec-4] GroupController.addNew(35) | add new group -----> edu.hanoi.jazz.dao.model.Group@7a96f802
+[2022-10-07 15:06:03] INFO [http-nio-8080-exec-4] GroupDAOImpl.insert(24) | Save group asdas dont!
+[2022-10-07 15:06:35] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@5b2b8d86
+[2022-10-07 15:06:35] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:06:39] INFO [http-nio-8080-exec-3] GroupController.addNew(35) | add new group -----> edu.hanoi.jazz.dao.model.Group@19eef075
+[2022-10-07 15:10:14] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@3e28d779
+[2022-10-07 15:10:14] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:10:29] INFO [http-nio-8080-exec-2] GroupController.addNew(35) | add new group -----> edu.hanoi.jazz.dao.model.Group@59e72bc9
+[2022-10-07 15:14:14] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@632383b9
+[2022-10-07 15:14:14] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:14:22] INFO [http-nio-8080-exec-2] GroupController.addNew(35) | add new group -----> edu.hanoi.jazz.dao.model.Group@6c932ccc
+[2022-10-07 15:16:14] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@5b2b8d86
+[2022-10-07 15:16:14] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:16:23] INFO [http-nio-8080-exec-2] GroupController.addNew(35) | add new group -----> edu.hanoi.jazz.dao.model.Group@2108413c
+[2022-10-07 15:18:10] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@c412556
+[2022-10-07 15:18:10] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:18:21] INFO [http-nio-8080-exec-2] GroupController.addNew(35) | add new group -----> edu.hanoi.jazz.dao.model.Group@2af0347b
+[2022-10-07 15:19:31] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@6d0290d8
+[2022-10-07 15:19:31] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:19:36] INFO [http-nio-8080-exec-3] GroupController.addNew(35) | add new group -----> edu.hanoi.jazz.dao.model.Group@15a3ec92
+[2022-10-07 15:26:42] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@32507479
+[2022-10-07 15:26:42] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:26:46] INFO [http-nio-8080-exec-2] GroupController.addNew(39) | add new group -----> edu.hanoi.jazz.dao.model.Group@2af0347b
+[2022-10-07 15:33:37] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@632383b9
+[2022-10-07 15:33:37] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:33:43] INFO [http-nio-8080-exec-5] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@5deac03e
+[2022-10-07 15:39:45] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@32507479
+[2022-10-07 15:39:45] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:39:49] INFO [http-nio-8080-exec-4] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@fb6bb54
+[2022-10-07 15:39:49] INFO [http-nio-8080-exec-4] GroupDAOImpl.insert(28) | Save group asda dont!
+[2022-10-07 15:40:09] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@32507479
+[2022-10-07 15:40:09] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:40:16] INFO [http-nio-8080-exec-2] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@90690c
+[2022-10-07 15:40:16] INFO [http-nio-8080-exec-2] GroupDAOImpl.insert(29) | Save group asda dont!
+[2022-10-07 15:51:13] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@265c1a7c
+[2022-10-07 15:51:13] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:51:35] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@5b2b8d86
+[2022-10-07 15:51:35] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:51:46] INFO [http-nio-8080-exec-2] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@a05ac89
+[2022-10-07 15:51:46] INFO [http-nio-8080-exec-2] GroupDAOImpl.insert(26) | Save group asdasda dont!
+[2022-10-07 15:55:36] INFO [http-nio-8080-exec-3] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@334e51e0
+[2022-10-07 15:55:36] INFO [http-nio-8080-exec-3] GroupDAOImpl.insert(26) | Save group  dont!
+[2022-10-07 15:56:11] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@474749b8
+[2022-10-07 15:56:11] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:56:18] INFO [http-nio-8080-exec-4] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@2b1ef262
+[2022-10-07 15:56:19] INFO [http-nio-8080-exec-4] GroupDAOImpl.insert(26) | Save group  done!
+[2022-10-07 15:56:53] INFO [http-nio-8080-exec-6] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@21d031c8
+[2022-10-07 15:56:53] INFO [http-nio-8080-exec-6] GroupDAOImpl.insert(26) | Save group asdas done!
+[2022-10-07 15:57:35] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@265c1a7c
+[2022-10-07 15:57:35] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 15:57:39] INFO [http-nio-8080-exec-8] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@355dbab5
+[2022-10-07 15:57:39] INFO [http-nio-8080-exec-8] GroupDAOImpl.insert(26) | Save group sajkhdajsdhaskjd done!
+[2022-10-07 16:04:23] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@265c1a7c
+[2022-10-07 16:04:23] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 16:04:31] INFO [http-nio-8080-exec-4] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@a05ac89
+[2022-10-07 16:04:32] INFO [http-nio-8080-exec-4] GroupDAOImpl.insert(26) | Save group dkasjdhjasdjkasdhaskjdhas done!
+[2022-10-07 16:05:41] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@1e30db85
+[2022-10-07 16:05:41] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 16:05:49] INFO [http-nio-8080-exec-2] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@338ad56f
+[2022-10-07 16:05:49] INFO [http-nio-8080-exec-2] GroupDAOImpl.insert(26) | Save group dsakjhdkasdhaskjda done!
+[2022-10-07 16:07:07] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@c412556
+[2022-10-07 16:07:07] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 16:07:16] INFO [http-nio-8080-exec-4] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@5c77de4c
+[2022-10-07 16:07:17] INFO [http-nio-8080-exec-4] GroupDAOImpl.insert(26) | Save group dasd done!
+[2022-10-07 16:22:04] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@450f0235
+[2022-10-07 16:22:04] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 16:22:14] INFO [http-nio-8080-exec-3] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@5272c4d0
+[2022-10-07 16:22:15] INFO [http-nio-8080-exec-3] GroupDAOImpl.insert(26) | Save group asdasasdasd done!
+[2022-10-07 16:25:47] INFO [http-nio-8080-exec-7] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@b2aa396
+[2022-10-07 16:25:47] INFO [http-nio-8080-exec-7] GroupDAOImpl.insert(26) | Save group asdasasdasd done!
+[2022-10-07 16:25:48] INFO [http-nio-8080-exec-8] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@1e901886
+[2022-10-07 16:25:48] INFO [http-nio-8080-exec-8] GroupDAOImpl.insert(26) | Save group asdasasdasd done!
+[2022-10-07 16:25:53] INFO [http-nio-8080-exec-9] GroupController.addNew(45) | add new group -----> edu.hanoi.jazz.dao.model.Group@21d031c8
+[2022-10-07 16:25:53] INFO [http-nio-8080-exec-9] GroupDAOImpl.insert(26) | Save group 3 done!
+[2022-10-07 16:36:10] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@450f0235
+[2022-10-07 16:36:10] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 16:38:09] INFO [http-nio-8080-exec-3] GroupController.addNew(45) | add new group -----> Group(name=jhjj, id=0)
+[2022-10-07 16:38:09] INFO [http-nio-8080-exec-3] GroupDAOImpl.insert(26) | Save group jhjj done!
+[2022-10-07 16:38:12] INFO [http-nio-8080-exec-4] GroupController.addNew(45) | add new group -----> Group(name=jhjj, id=0)
+[2022-10-07 16:38:12] INFO [http-nio-8080-exec-4] GroupDAOImpl.insert(26) | Save group jhjj done!
+[2022-10-07 16:41:13] INFO [http-nio-8080-exec-7] GroupController.addNew(45) | add new group -----> Group(name=jhjj, id=0)
+[2022-10-07 16:41:13] INFO [http-nio-8080-exec-7] GroupDAOImpl.insert(26) | Save group jhjj done!
+[2022-10-07 16:41:13] INFO [http-nio-8080-exec-9] GroupController.addNew(45) | add new group -----> Group(name=jhjj, id=0)
+[2022-10-07 16:41:13] INFO [http-nio-8080-exec-9] GroupDAOImpl.insert(26) | Save group jhjj done!
+[2022-10-07 16:41:14] INFO [http-nio-8080-exec-8] GroupController.addNew(45) | add new group -----> Group(name=jhjj, id=0)
+[2022-10-07 16:41:14] INFO [http-nio-8080-exec-8] GroupDAOImpl.insert(26) | Save group jhjj done!
+[2022-10-07 16:41:15] INFO [http-nio-8080-exec-10] GroupController.addNew(45) | add new group -----> Group(name=jhjj, id=0)
+[2022-10-07 16:41:15] INFO [http-nio-8080-exec-10] GroupDAOImpl.insert(26) | Save group jhjj done!
+[2022-10-07 16:41:15] INFO [http-nio-8080-exec-1] GroupController.addNew(45) | add new group -----> Group(name=jhjj, id=0)
+[2022-10-07 16:41:15] INFO [http-nio-8080-exec-1] GroupDAOImpl.insert(26) | Save group jhjj done!
+[2022-10-07 16:47:55] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@7d2c345d
+[2022-10-07 16:47:55] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 16:48:45] INFO [http-nio-8080-exec-5] GroupController.addNew(45) | add new group -----> Group(name=sadasd, id=0)
+[2022-10-07 16:48:45] INFO [http-nio-8080-exec-5] GroupDAOImpl.insert(26) | Save group sadasd done!
+[2022-10-07 16:49:12] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@3b35798
+[2022-10-07 16:49:12] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 16:49:16] INFO [http-nio-8080-exec-2] GroupController.addNew(45) | add new group -----> Group(name=hjg, id=0)
+[2022-10-07 16:49:16] INFO [http-nio-8080-exec-2] GroupDAOImpl.insert(26) | Save group hjg done!
+[2022-10-07 16:49:41] INFO [http-nio-8080-exec-3] GroupController.addNew(45) | add new group -----> Group(name=hjg, id=0)
+[2022-10-07 16:49:41] INFO [http-nio-8080-exec-3] GroupDAOImpl.insert(26) | Save group hjg done!
+[2022-10-07 16:51:42] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@209f3887
+[2022-10-07 16:51:42] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 16:51:48] INFO [http-nio-8080-exec-4] GroupController.addNew(45) | add new group -----> Group(name=dasdadasdas, id=0)
+[2022-10-07 16:51:49] INFO [http-nio-8080-exec-4] GroupDAOImpl.insert(27) | Save group dasdadasdas done!
+[2022-10-07 16:51:57] INFO [http-nio-8080-exec-2] GroupController.addNew(45) | add new group -----> Group(name=dasdadasdas, id=0)
+[2022-10-07 16:51:57] INFO [http-nio-8080-exec-2] GroupDAOImpl.insert(27) | Save group dasdadasdas done!
+[2022-10-07 16:51:59] INFO [http-nio-8080-exec-6] GroupController.addNew(45) | add new group -----> Group(name=dasdadasdas, id=0)
+[2022-10-07 16:51:59] INFO [http-nio-8080-exec-6] GroupDAOImpl.insert(27) | Save group dasdadasdas done!
+[2022-10-07 16:52:02] INFO [http-nio-8080-exec-5] GroupController.addNew(45) | add new group -----> Group(name=hai, id=0)
+[2022-10-07 16:52:02] INFO [http-nio-8080-exec-5] GroupDAOImpl.insert(27) | Save group hai done!
+[2022-10-07 16:52:03] INFO [http-nio-8080-exec-3] GroupController.addNew(45) | add new group -----> Group(name=hai, id=0)
+[2022-10-07 16:52:03] INFO [http-nio-8080-exec-3] GroupDAOImpl.insert(27) | Save group hai done!
+[2022-10-07 16:52:48] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@450f0235
+[2022-10-07 16:52:48] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 16:52:57] INFO [http-nio-8080-exec-3] GroupController.addNew(45) | add new group -----> Group(name=dasads, id=0)
+[2022-10-07 16:52:57] INFO [http-nio-8080-exec-3] GroupDAOImpl.insert(26) | Save group dasads done!
+[2022-10-07 17:04:04] INFO [main] ContextStartEventHandler.onApplicationEvent(20) | context start application org.springframework.jdbc.datasource.DriverManagerDataSource@6f930e0
+[2022-10-07 17:04:04] INFO [main] ContextStartEventHandler.createTable(39) | Table HN_GROUP already exists!
+[2022-10-07 17:04:13] INFO [http-nio-8080-exec-5] GroupController.addNew(45) | add new group -----> Group(name=ujhb, id=0)
+[2022-10-07 17:04:13] INFO [http-nio-8080-exec-5] GroupDAOImpl.insert(27) | Save group ujhb done!
+[2022-10-07 17:04:55] INFO [http-nio-8080-exec-4] GroupController.addNew(45) | add new group -----> Group(name=ujhb, id=0)
+[2022-10-07 17:04:55] INFO [http-nio-8080-exec-4] GroupDAOImpl.insert(27) | Save group ujhb done!
+[2022-10-07 17:05:06] INFO [http-nio-8080-exec-8] GroupController.addNew(45) | add new group -----> Group(name=ujhb, id=0)
+[2022-10-07 17:05:06] INFO [http-nio-8080-exec-8] GroupDAOImpl.insert(27) | Save group ujhb done!

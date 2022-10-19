@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.2.xsd"
+>
+    <context:annotation-config></context:annotation-config>
+<!--    <bean id="helloJavaClazz" class="edu.java.spring.HelloClazz">-->
+<!--        <property name="message" value="Welcome to Spring Core"/>-->
+<!--    </bean>-->
+<!--    	<bean id="helloJavaClazz2" class="edu.java.spring.HelloClazz" init-method="initMessage">-->
+<!--    		<constructor-arg ref="helloJavaClazz"></constructor-arg>-->
+<!--    	</bean>-->
+
+
+    <bean class="edu.java.spring.InitSampleBean"></bean>
+
+<!--    <bean id="sampleTemplate" abstract="true">-->
+<!--        <property name="message" value="TemplatesayHello"/>-->
+<!--    </bean>-->
+<!--    <bean id="helloWorld" class="edu.java.spring.HelloWorld" parent="sampleTemplate"></bean>-->
+
+<!--    <bean id="helloWorld" class="edu.java.spring.HelloWorld">-->
+<!--&lt;!&ndash;        <constructor-arg type="java.lang.String" value="Hai"/>&ndash;&gt;-->
+<!--        <constructor-arg index="0" value="Hoang"/>-->
+<!--&lt;!&ndash;        <constructor-arg ref="helloJavaClazz"/>&ndash;&gt;-->
+<!--            <constructor-arg index="1" ref="helloJavaClazz2"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="helloJavaClazz" class="edu.java.spring.HelloClazz">-->
+<!--        <property name="message" value="Hello Bean Inheritance!"/>-->
+<!--    </bean>-->
+<!--    -->
+<!--    <bean id="helloWorld" class="edu.java.spring.HelloWorld">-->
+<!--        <property name="clazz">-->
+<!--            <bean id="helloJavaClazz" class="edu.java.spring.HelloClazz">-->
+<!--                <property name="message" value="Hello Class Instance is Inner Bean!"/>-->
+<!--            </bean>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+    <bean id="jee01" class="edu.java.spring.JavaClazz">
+        <property name="students">
+            <map>
+                <entry key="Nguyen Van A" value="23"></entry>
+                <entry key="Tran Thi B" value="18"></entry>
+                <entry key="Le Thi C" value="27"></entry>
+            </map>
+        </property>
+    </bean>
+
+<!--    <bean id="helloJavaClazz" class="edu.java.spring.HelloClazz">-->
+<!--        <property name="clazzes">-->
+<!--            <list>-->
+<!--                <ref bean="jee01"></ref>-->
+<!--                <null/>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+<!--    <bean id="helloWorld" class="edu.java.spring.HelloWorld">-->
+<!--        <property name="clazz">-->
+<!--            <bean id="helloJavaClazz" class="edu.java.spring.HelloClazz">-->
+<!--                <property name="message" value="Hello Class Instance is Inner Bean!"/>-->
+<!--            </bean>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+    <bean id="helloWorld" class="edu.java.spring.HelloWorld" >
+        <property name="message" value="loi"/>
+    </bean>
+
+    <bean id="helloJavaClazz3" class="edu.java.spring.HelloClazz">
+        <property name="message" value="haha day nek"/>
+    </bean>
+
+    <bean id="helloJavaClazz2" class="edu.java.spring.HelloClazz">
+        <property name="message" value="Hello Bean Inheritance!"/>
+    </bean>
+
+    <bean id="startEventHandler" class="edu.java.spring.ContextStartEventHandler"></bean>
+</beans>
